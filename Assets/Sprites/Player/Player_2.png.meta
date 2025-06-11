@@ -1,28 +1,28 @@
 fileFormatVersion: 2
-guid: e6869041151d89245bf9bec4c5e17abd
+guid: 3ef6480a2e556d24ca483ad8950489d5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8810085303961432755
-    second: enemy_spaceship_2_0
+      213: 4358916881917480331
+    second: enemy_spaceship_3_0
   - first:
-      213: 1551868573009878031
-    second: enemy_spaceship_2_1
+      213: 8095511386236153057
+    second: enemy_spaceship_3_1
   - first:
-      213: 2020074211975687045
-    second: enemy_spaceship_2_2
+      213: 6839169931277607391
+    second: enemy_spaceship_3_2
   - first:
-      213: -3702008834969732284
-    second: enemy_spaceship_2_3
+      213: 3908854719249126181
+    second: enemy_spaceship_3_3
   - first:
-      213: -6229188958198577618
-    second: enemy_spaceship_2_4
+      213: -9081556157865701288
+    second: enemy_spaceship_3_4
   - first:
-      213: 5072187737917220014
-    second: enemy_spaceship_2_5
+      213: -8019260444473625378
+    second: enemy_spaceship_3_5
   - first:
-      213: 3342319826968287356
-    second: enemy_spaceship_2_6
+      213: -1859117552693448113
+    second: enemy_spaceship_3_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -157,13 +157,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: enemy_spaceship_2_0
+      name: enemy_spaceship_3_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 5
-        width: 32
-        height: 27
+        x: 4
+        y: 1
+        width: 24
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,20 +172,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3b2b287f7e5b34a70800000000000000
-      internalID: 8810085303961432755
+      spriteID: b8d05204fcbfd7c30800000000000000
+      internalID: 4358916881917480331
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy_spaceship_2_1
+      name: enemy_spaceship_3_1
       rect:
         serializedVersion: 2
-        x: 32
-        y: 7
-        width: 32
-        height: 25
+        x: 36
+        y: 1
+        width: 24
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,20 +194,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f0c9858be38598510800000000000000
-      internalID: 1551868573009878031
+      spriteID: 1ec6cb3c6b8095070800000000000000
+      internalID: 8095511386236153057
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy_spaceship_2_2
+      name: enemy_spaceship_3_2
       rect:
         serializedVersion: 2
-        x: 64
-        y: 9
-        width: 32
-        height: 23
+        x: 68
+        y: 1
+        width: 24
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,20 +216,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 58becb00bceb80c10800000000000000
-      internalID: 2020074211975687045
+      spriteID: fd1a55821dc99ee50800000000000000
+      internalID: 6839169931277607391
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy_spaceship_2_3
+      name: enemy_spaceship_3_3
       rect:
         serializedVersion: 2
-        x: 96
-        y: 7
-        width: 32
-        height: 25
+        x: 100
+        y: 1
+        width: 24
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -238,20 +238,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 44b75442492df9cc0800000000000000
-      internalID: -3702008834969732284
+      spriteID: 523147b38aa0f3630800000000000000
+      internalID: 3908854719249126181
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy_spaceship_2_4
+      name: enemy_spaceship_3_4
       rect:
         serializedVersion: 2
-        x: 128
-        y: 10
-        width: 32
-        height: 22
+        x: 132
+        y: 1
+        width: 24
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,20 +260,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e26c9cb65a97d89a0800000000000000
-      internalID: -6229188958198577618
+      spriteID: 85057a26ac4d7f180800000000000000
+      internalID: -9081556157865701288
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy_spaceship_2_5
+      name: enemy_spaceship_3_5
       rect:
         serializedVersion: 2
-        x: 160
-        y: 10
-        width: 32
-        height: 22
+        x: 164
+        y: 1
+        width: 24
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -282,20 +282,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ea4e5a0cfd7046640800000000000000
-      internalID: 5072187737917220014
+      spriteID: ed4fec51d1dd5b090800000000000000
+      internalID: -8019260444473625378
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy_spaceship_2_6
+      name: enemy_spaceship_3_6
       rect:
         serializedVersion: 2
-        x: 192
-        y: 10
-        width: 32
-        height: 22
+        x: 196
+        y: 1
+        width: 24
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -304,8 +304,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c78903c9c2e426e20800000000000000
-      internalID: 3342319826968287356
+      spriteID: f4273049f661336e0800000000000000
+      internalID: -1859117552693448113
       vertices: []
       indices: 
       edges: []
@@ -324,13 +324,13 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      enemy_spaceship_2_0: 8810085303961432755
-      enemy_spaceship_2_1: 1551868573009878031
-      enemy_spaceship_2_2: 2020074211975687045
-      enemy_spaceship_2_3: -3702008834969732284
-      enemy_spaceship_2_4: -6229188958198577618
-      enemy_spaceship_2_5: 5072187737917220014
-      enemy_spaceship_2_6: 3342319826968287356
+      enemy_spaceship_3_0: 4358916881917480331
+      enemy_spaceship_3_1: 8095511386236153057
+      enemy_spaceship_3_2: 6839169931277607391
+      enemy_spaceship_3_3: 3908854719249126181
+      enemy_spaceship_3_4: -9081556157865701288
+      enemy_spaceship_3_5: -8019260444473625378
+      enemy_spaceship_3_6: -1859117552693448113
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
