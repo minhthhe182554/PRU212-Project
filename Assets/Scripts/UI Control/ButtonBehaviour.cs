@@ -7,4 +7,14 @@ public class ButtonBehaviour : MonoBehaviour
     {
         SceneManager.LoadScene(SceneNames.SETTING_SCENE);
     }
+
+    public void GoToSelectPlayerScene()
+    {
+        SceneManager.LoadScene(SceneNames.SELECT_PLAYER);
+    }
+
+    public void GoToMainMenu()
+    {
+        SceneManager.LoadScene(SceneNames.MAIN_MENU);
+    }
 }
