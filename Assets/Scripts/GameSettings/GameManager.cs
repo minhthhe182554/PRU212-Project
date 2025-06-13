@@ -2,21 +2,22 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public static GameManager instance;
+    public static GameManager Instance;
     public int Player1Score { get; set; } = 0;
     public int Player2Score { get; set; } = 0;
 
     void Awake()
     {
-        if (instance == null)
+        if (Instance == null)
         {
-            instance = this;
+            Instance = this;
 
             DontDestroyOnLoad(gameObject);
+            LogCurrentSettings();
         }
         else
         {
-            //Destroy gameObject when switching back the this scene (Need only 1 instance of this class)
+            //Destroy gameObject when switching back the this scene (Need only 1 Instance of this class)
             Destroy(gameObject);
         }
     }
@@ -31,5 +32,24 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void UpdateScore(int player, int newScore)
+    {
+        if (player == 1)
+        {
+            Player1Score = newScore;
+        }
+        else
+        {
+            Player2Score = newScore;
+        }
+        Debug.Log($"[GameManager] Player{player}Score updated to: {newScore}");
+    }
+
+    public void LogCurrentSettings()
+    {
+        Debug.Log($"[GameManager Settings] Player1Score: {Player1Score}");
+        Debug.Log($"[GameManager Scores] Player2Score: {Player2Score}");
     }
 }
